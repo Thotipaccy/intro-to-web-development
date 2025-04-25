@@ -25,6 +25,8 @@ li{
 }
 .hero{
   background-image: url('/images/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 500px;
   padding-top: 219px;
   padding-left: 103px;
@@ -73,4 +75,10 @@ h3{
   font-size: 20px;
   color: black;
   margin-bottom: 12px;
+}
+footer{
+  background: #333232;
+  text-align: center;
+  color: white;
+  padding: 30px;
 }
